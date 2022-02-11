@@ -1,0 +1,12 @@
+sno=int(input('enter a number'))
+sname=input('enter sname')
+s1=int(input('s1 marks'))
+s2=int(input('s2 marks'))
+s3=int(input('s3 marks'))
+s4=int(input('s4 marks'))
+s5=int(input('s5 marks'))
+s6=int(input('s6 marks'))
+if (s1>=35)&(s2>=35)&(s3>=35)&(s4>=35)&(s5>=35)&(s6>=35):
+    print('pass')
+else:
+     print('fail')
